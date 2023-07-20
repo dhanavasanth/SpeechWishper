@@ -23,5 +23,7 @@ There you go...!
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+## HOME
+
+![home](https://github.com/dhanavasanth/SpeechWishper/assets/117557948/3a09b189-5c2b-446c-8829-da5b782eb025)
 

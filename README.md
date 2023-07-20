@@ -1,6 +1,6 @@
 <img align="top" height = 200 alt="Coding" width="900" src="https://media.giphy.com/media/5mYcsVrgxtxt7QUc55/giphy.gif">
 
-# SpeechWishper
+<h1 align="center">SpeechWishper "SNSCRAPE"</h1>
 
 ## Installation
 

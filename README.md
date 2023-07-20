@@ -1,4 +1,4 @@
-<img align="top" height = 200 alt="Coding" width="900" src="https://media.giphy.com/media/IcZhFmufozDCij3p22/giphy.gif">
+<img align="top" height = 200 alt="Coding" width="900" src="https://media.giphy.com/media/5mYcsVrgxtxt7QUc55/giphy.gif">
 
 # SpeechWishper
 

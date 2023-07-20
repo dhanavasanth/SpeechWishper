@@ -27,3 +27,11 @@ There you go...!
 
 ![home](https://github.com/dhanavasanth/SpeechWishper/assets/117557948/3a09b189-5c2b-446c-8829-da5b782eb025)
 
+## GOOGLE MODEL
+
+![google](https://github.com/dhanavasanth/SpeechWishper/assets/117557948/7884c531-9b7a-46fa-a458-e9ef55f445f7)
+
+## OUTPUT
+
+
+

@@ -1,5 +1,7 @@
+#DEPENDED LIBRARIES
 import os
 import json
+import base64
 from bardapi import Bard
 import speech_recognition as sr
 from elevenlabs import generate
@@ -9,6 +11,12 @@ from dotenv import load_dotenv
 load_dotenv()
 bard_key = os.environ.get("_BARD_API_KEY")
 
+#TO OPEN IMAGE BACKGROUND
+def get_img_as_base64(file):
+    with open(file,"rb") as f:
+        data = f.read()
+    return base64.b64encode(data).decode()
+
 #TO RENDER LOTTIE JSON FILE
 def lottie_json(path:str):
     with open(path) as f:
@@ -16,7 +24,7 @@ def lottie_json(path:str):
     
 #BARD AI SEARCH RESULT (BardAI API function to search) 
 def bard(input_text):
-    prompt = f'{input_text} in simple words'
+    prompt = f'{input_text}  summerise this text'
     result = ((Bard().get_answer(input_text=prompt)['content']))
     return result
 
@@ -40,4 +48,3 @@ def get_audio():
     except sr.RequestError as e:
         print("Could not request results from Google Speech Recognition service; {0}".format(e))
     return text
-

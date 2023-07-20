@@ -1,3 +1,5 @@
+<img align="top" height = 200 alt="Coding" width="900" src="https://media.giphy.com/media/IcZhFmufozDCij3p22/giphy.gif">
+
 # SpeechWishper
 
 ## Installation

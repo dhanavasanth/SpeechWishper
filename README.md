@@ -35,6 +35,12 @@ There you go...!
 
 ![output](https://github.com/dhanavasanth/SpeechWishper/assets/117557948/c37af120-416f-4ff6-8b0d-6b18eb9a0c35)
 
+
+# Hi, I'm Dhana Vasanth..! 👋
+
+## 🚀 About Me
+ Data Scientist | ML Engineer | Analyst | NLP | 
+
 ## Support
 
 For support, email danavasanth@gmail.com 

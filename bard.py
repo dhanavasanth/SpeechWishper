@@ -20,9 +20,33 @@ translation_mode = "eleven_multilingual_v1"     #  | "eleven_monolingual_v1"
 
 #CONFIGURING STREAMLIT WEBPAGE
 st.set_page_config(page_title="S2S-CHATBOT", page_icon=":speech_balloon:")
-st.title("LET'S CHAT WITH SOME VOICES")
+
+img = get_img_as_base64("media/BG_IMG.jpg")
+
+page_bg_img = f"""
+<style>
+[data-testid="stAppViewContainer"] > .main {{
+background-image :url("data:media/png;base64,{img}");
+background-size : cover;
+}}
+[data-testid="stHeader"]{{
+background:rgba(0,0,0,0);
+}}
+</style>
+"""
+st.markdown(page_bg_img, unsafe_allow_html=True)
+
+st.title("LET'S CHAT WITH SOME VOICES...!")
 st.write("--------")
 
+#HIDE MENU AND WATERMARK
+hide_streamlit_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
 
 #CREATING VOICE OPTIONS IN SIDEBAR (elevenlabs voice options)
 with st.sidebar:
@@ -68,21 +92,12 @@ if SPEAK:
             input_text = get_audio()
         except UnboundLocalError:
             input_text = None
-
-    #PRINTING AI RESPONSE
     if input_text is not None:
         st.subheader(f'Your Prompt: {input_text} ..?')
         AI_response = bard(input_text)
         st.markdown(AI_response)
-
-    #SPEAKING AI RESPONSE (with API)
-    #     if AI_response:
+    #    if AI_response:
     #         speech = text_to_speech(AI_response, selected_voice, translation_mode)
     #         st.audio(speech)
     else:
         st.error("Please speak again")
-
-
-
-
-

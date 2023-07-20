@@ -68,10 +68,14 @@ if SPEAK:
             input_text = get_audio()
         except UnboundLocalError:
             input_text = None
+
+    #PRINTING AI RESPONSE
     if input_text is not None:
         st.subheader(f'Your Prompt: {input_text} ..?')
-    #     AI_response = bard(input_text)
-    #     st.subheader(AI_response)
+        AI_response = bard(input_text)
+        st.markdown(AI_response)
+
+    #SPEAKING AI RESPONSE (with API)
     #     if AI_response:
     #         speech = text_to_speech(AI_response, selected_voice, translation_mode)
     #         st.audio(speech)

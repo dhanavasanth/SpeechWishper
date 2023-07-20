@@ -3,6 +3,7 @@
 <h1 align="center">SpeechWishper </h1>
 
 <img align="right" alt="Coding" width="300" src="https://media.giphy.com/media/5NPhdqmyRxn8I/giphy.gif">
+
 ## Installation
 
 Install all dependecies in One-Go..

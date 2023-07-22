@@ -29,7 +29,7 @@ There you go...!
 
 ## VOICE PROMPT MODEL
 
-![google](https://github.com/dhanavasanth/SpeechWishper/assets/117557948/7884c531-9b7a-46fa-a458-e9ef55f445f7)
+![output](https://github.com/dhanavasanth/SpeechWishper/assets/117557948/c37af120-416f-4ff6-8b0d-6b18eb9a0c35)
 
 ## TEXT PROMPT MODEL
 
@@ -37,11 +37,7 @@ There you go...!
 
 ## IMAGE PROMPT MODEL
 
-
-
-## OUTPUT
-
-![output](https://github.com/dhanavasanth/SpeechWishper/assets/117557948/c37af120-416f-4ff6-8b0d-6b18eb9a0c35)
+![image search](https://github.com/dhanavasanth/SpeechWishper/assets/117557948/40ff2aa1-cfdc-42d0-ad1b-5e3657d816dc)
 
 
 # Hi, I'm Dhana Vasanth..! 👋

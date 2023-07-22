@@ -27,9 +27,17 @@ There you go...!
 
 ![home](https://github.com/dhanavasanth/SpeechWishper/assets/117557948/3a09b189-5c2b-446c-8829-da5b782eb025)
 
-## GOOGLE MODEL
+## VOICE PROMPT MODEL
 
 ![google](https://github.com/dhanavasanth/SpeechWishper/assets/117557948/7884c531-9b7a-46fa-a458-e9ef55f445f7)
+
+## TEXT PROMPT MODEL
+
+![text prompt](https://github.com/dhanavasanth/SpeechWishper/assets/117557948/3fe3d863-e064-46f1-8b04-91c375e04cf1)
+
+## IMAGE PROMPT MODEL
+
+
 
 ## OUTPUT
 
